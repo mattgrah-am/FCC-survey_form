@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,9 @@
 html,
 body {
   background: linear-gradient(45deg, #5b00ee, #ad81f5);
+  font-family: "Antic", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 #main {
@@ -13,4 +18,57 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
   margin-top: 3%;
   padding: 2%;
+  border-radius: 10px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: white;
+  color: inherit;
+  border-radius: 2px;
+}
+
+button {
+  border: none;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  display: block;
+  width: 97.5%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+label {
+  display: flex;
+  font-size: 20px;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 97.5%;
+  padding: 0.625rem;
+  resize: vertical;
+  border: none;
+  border-radius: 2px;
+}
+
+#title,
+#description {
+  text-align: center;
 }
